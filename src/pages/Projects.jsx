@@ -1,6 +1,6 @@
 import webmusicplayer from "../assets/web-music-player2.PNG";
 import hrappication from "../assets/hr-app-landing.PNG";
-import expensetrackerapplication from "../assets/expense-tracker-application.PNG";
+import expensetrackerapplication from "../assets/expense-tracker-application.png";
 
 function ProjectsPage() {
   return (

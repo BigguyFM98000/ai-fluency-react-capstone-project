@@ -1,10 +1,10 @@
 import {Routes, Route} from "react-router-dom";
-import Layout from "./layout/Layout";
-import HomePage from "./pages/Home";
-import AboutPage from "./pages/About";
-import SkillsPage from "./pages/Skills";
-import ProjectsPage from "./pages/Projects";
-import ContactPage from "./pages/Contact";
+import Layout from "./layout/Layout.jsx";
+import HomePage from "./pages/Home.jsx";
+import AboutPage from "./pages/About.jsx";
+import SkillsPage from "./pages/Skills.jsx";
+import ProjectsPage from "./pages/Projects.jsx";
+import ContactPage from "./pages/Contact.jsx";
 
 function App() {
 
