@@ -12,8 +12,9 @@ import { SiPostman } from "react-icons/si";
 function SkillsPage() {
   return (
     <section className="min-h-[80vh]">
-      <section className="flex flex-row justify-around items-center gap-5 p-8 flex-wrap min-h-[40vh]">
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <h2 className="text-3xl text-bold text-center">My Skills.</h2>
+      <section className="flex flex-row justify-around items-center gap-5 p-8 flex-wrap min-h-[38vh]">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-xl">
               <FaHtml5 />
@@ -24,7 +25,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <IoLogoCss3 />
@@ -35,7 +36,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiJavascript />
@@ -46,7 +47,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <IoLogoReact />
@@ -57,7 +58,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiTailwindcss />
@@ -69,8 +70,8 @@ function SkillsPage() {
           </div>
         </div>
       </section>
-      <section className="flex flex-row justify-around items-center gap-5 p-8 min-h-[40vh] flex-wrap">
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+      <section className="flex flex-row justify-around items-center gap-5 p-8 min-h-[38vh] flex-wrap">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiExpress />
@@ -81,7 +82,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <BiLogoPostgresql />
@@ -92,7 +93,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiMongodb />
@@ -103,7 +104,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <FaGitAlt />
@@ -114,7 +115,7 @@ function SkillsPage() {
             </div>
           </div>
         </div>
-        <div className="card w-64 bg-neutral text-neutral-content transition-transform duration-300 ease-in-out hover:scale-x-105 hover:shadow-md">
+        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiPostman />
