@@ -10,7 +10,7 @@ function AboutPage() {
           className="w-xl h-full rounded-lg shadow-2xl"
         />
         <div className="sm:max-w-[90vw] md:max-w-[90vw] lg:max-w-[50vw]">
-          <h1 className="text-5xl font-bold">About My Career!</h1>
+          <h1 className="text-5xl font-bold">About My Career.</h1>
           <p className="py-6">
             I am an aspiring Web Developer with a strong foundation in
             full-stack web development, mobile application development, and
