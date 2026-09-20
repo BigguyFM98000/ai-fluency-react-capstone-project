@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import webmusicplayer from "../assets/web-music-player2.PNG";
 import hrappication from "../assets/hr-app-landing.PNG";
 import expensetrackerapplication from "../assets/expense-tracker-application.PNG";
@@ -7,8 +6,8 @@ function ProjectsPage() {
   return (
     <section className="min-h-[80vh]">
       <h2 className="text-3xl font-bold text-center">Projects I Created.</h2>
-      <section className="flex flex-row gap-4 justify-around items-center p-4">
-        <div className="card bg-indigo-500 w-96 shadow-sm">
+      <section className="flex flex-col items-center justify-around gap-6 p-4 lg:flex-row lg:items-stretch">
+        <div className="card w-full max-w-md bg-indigo-500 shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={webmusicplayer}
@@ -32,7 +31,7 @@ function ProjectsPage() {
             </div>
           </div>
         </div>
-        <div className="card bg-indigo-500 w-96 shadow-sm">
+        <div className="card w-full max-w-md bg-indigo-500 shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={hrappication}
@@ -54,7 +53,7 @@ function ProjectsPage() {
             </div>
           </div>
         </div>
-        <div className="card bg-indigo-500 w-96 shadow-sm">
+        <div className="card w-full max-w-md bg-indigo-500 shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={expensetrackerapplication}
