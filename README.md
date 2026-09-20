@@ -21,3 +21,10 @@ I will use the same three-beat structure:
 - Status: ✅ Enabled
 - Time zone: Africa/Johannesburg
 
+## The Project Overview
+- The project consists of five pages.
+- The Home page which shows a short introduction of my name and intenstions.
+- The About page which features a short introduction about my career.
+- The Skills page which features cards that display my skills and my experience level with that skill.
+- The Projects page which features my projects with a button to view the project live.
+- The Contact page features my social links and a contact form to send me a message.
