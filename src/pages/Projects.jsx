@@ -12,6 +12,9 @@ function ProjectsPage() {
             <img
               src={webmusicplayer}
               alt="Web Music Player Application"
+              width="1366"
+              height="608"
+              loading="lazy"
               className="rounded-xl"
             />
           </figure>
@@ -36,6 +39,9 @@ function ProjectsPage() {
             <img
               src={hrappication}
               alt="HR Application Landing Page"
+              width="1351"
+              height="592"
+              loading="lazy"
               className="rounded-xl"
             />
           </figure>
@@ -58,6 +64,9 @@ function ProjectsPage() {
             <img
               src={expensetrackerapplication}
               alt="Expense Tracker Application"
+              width="1832"
+              height="877"
+              loading="lazy"
               className="rounded-xl"
             />
           </figure>

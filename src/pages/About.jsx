@@ -7,6 +7,9 @@ function AboutPage() {
         <img
           alt="Fhatuwani sitting in office chair"
           src={fhatuimage}
+          width="200"
+          height="200"
+          loading="lazy"
           className="w-xl h-full rounded-lg shadow-2xl"
         />
         <div className="sm:max-w-[90vw] md:max-w-[90vw] lg:max-w-[50vw]">
