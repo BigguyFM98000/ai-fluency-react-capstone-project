@@ -1,5 +1,6 @@
 import herobackgroundimage from "../assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpg";
 import {useNavigate} from "react-router-dom";
+import { motion } from "motion/react";
 
 function HomePage() {
     const navigate = useNavigate(); 
@@ -18,7 +19,7 @@ function HomePage() {
           <p className="mb-5 text-2xl">
             My name is Fhatuwani and I am a web developer. I have a passion for creating beautiful and functional websites. I am currently looking for a job as a junior web developer. If you are interested in hiring me, please feel free to contact me.
           </p>
-          <button onClick={() => navigate("contact")} className="btn btn-primary text-lg">Contact Me</button>
+          <motion.button whileHover={{ y: -10 }} onClick={() => navigate("contact")} className="btn btn-primary text-lg">Contact Me</motion.button>
         </div>
       </div>
     </div>

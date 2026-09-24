@@ -1,10 +1,12 @@
 import fhatuimage from "../assets/fhatu-office.jpeg";
+import { motion } from "motion/react";
 
 function AboutPage() {
   return (
     <div className="hero bg-base-200 min-h-[80vh]">
       <div className="hero-content flex-col lg:flex-row">
-        <img
+        <motion.img 
+          whileHover={{ y: -10 }}
           alt="Fhatuwani sitting in office chair"
           src={fhatuimage}
           width="200"

@@ -1,13 +1,14 @@
 import webmusicplayer from "../assets/web-music-player2.PNG";
 import hrappication from "../assets/hr-app-landing.PNG";
 import expensetrackerapplication from "../assets/expense-tracker-application.png";
+import { motion } from "motion/react";
 
 function ProjectsPage() {
   return (
     <section className="min-h-[80vh]">
       <h2 className="text-3xl font-bold text-center">Projects I Created.</h2>
       <section className="flex flex-col items-center justify-around gap-6 p-4 lg:flex-row lg:items-stretch">
-        <div className="card w-full max-w-md bg-indigo-500 shadow-sm">
+        <motion.div whileHover={{ y: -10 }} className="card w-full max-w-md bg-indigo-500 shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={webmusicplayer}
@@ -33,8 +34,8 @@ function ProjectsPage() {
               </a>
             </div>
           </div>
-        </div>
-        <div className="card w-full max-w-md bg-indigo-500 shadow-sm">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-full max-w-md bg-indigo-500 shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={hrappication}
@@ -58,8 +59,8 @@ function ProjectsPage() {
               </a>
             </div>
           </div>
-        </div>
-        <div className="card w-full max-w-md bg-indigo-500 shadow-sm">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-full max-w-md bg-indigo-500 shadow-sm">
           <figure className="px-10 pt-10">
             <img
               src={expensetrackerapplication}
@@ -84,7 +85,7 @@ function ProjectsPage() {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
     </section>
   );

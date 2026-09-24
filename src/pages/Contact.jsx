@@ -1,6 +1,7 @@
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { motion } from "motion/react";
 
 function ContactPage() {
   return (
@@ -12,15 +13,15 @@ function ContactPage() {
             Interested in working together or have any questions? Feel free to reach out to me through the contact form or connect with me on social media. I look forward to hearing from you!
           </p>
           <div className="card-actions flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a href="https://www.linkedin.com/in/fhatuwani-raphalalani" target="_blank">
+            <motion.a whileHover={{ y: -10 }} href="https://www.linkedin.com/in/fhatuwani-raphalalani" target="_blank">
               <button className="btn btn-secondary">Connect on LinkedIn <FaLinkedin /></button>
-            </a>
-             <a href="https://github.com/BigguyFM98000/" target="_blank">
+            </motion.a>
+             <motion.a whileHover={{ y: -10 }} href="https://github.com/BigguyFM98000/" target="_blank">
               <button className="btn btn-secondary">Connect on GitHub <FaGithub /></button>
-            </a>
-             <a href="https://www.instagram.com/fhatuwani_bigguy/" target="_blank">
+            </motion.a>
+             <motion.a whileHover={{ y: -10 }} href="https://www.instagram.com/fhatuwani_bigguy/" target="_blank">
               <button className="btn btn-secondary">Follow on Instagram <FaInstagramSquare /></button>
-            </a>
+            </motion.a>
           </div>
         </div>
       </div>

@@ -8,13 +8,14 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
+import { motion } from "motion/react";
 
 function SkillsPage() {
   return (
     <section className="min-h-[80vh]">
         <h2 className="text-3xl text-bold text-center">My Skills.</h2>
       <section className="flex flex-row justify-around items-center gap-5 p-8 flex-wrap min-h-[38vh]">
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        <motion.div className="card w-64 bg-neutral text-neutral-content hover:shadow-md" whileHover={{ y: -10 }}>
           <div className="card-body items-center text-center">
             <h2 className="card-title text-xl">
               <FaHtml5 />
@@ -24,8 +25,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Advanced</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <IoLogoCss3 />
@@ -35,8 +36,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Advanced</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiJavascript />
@@ -46,8 +47,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Advanced</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <IoLogoReact />
@@ -57,8 +58,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Intermediate</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiTailwindcss />
@@ -68,10 +69,10 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Advanced</h2>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
       <section className="flex flex-row justify-around items-center gap-5 p-8 min-h-[38vh] flex-wrap">
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiExpress />
@@ -81,8 +82,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Intermediate</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <BiLogoPostgresql />
@@ -92,8 +93,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Intermediate</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiMongodb />
@@ -103,8 +104,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Intermediate</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <FaGitAlt />
@@ -114,8 +115,8 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Advanced</h2>
             </div>
           </div>
-        </div>
-        <div className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
+        </motion.div>
+        <motion.div whileHover={{ y: -10 }} className="card w-64 bg-neutral text-neutral-content hover:shadow-md">
           <div className="card-body items-center text-center">
             <h2 className="card-title">
               <SiPostman />
@@ -125,7 +126,7 @@ function SkillsPage() {
               <h2 className="btn btn-primary">Advanced</h2>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
     </section>
   );
