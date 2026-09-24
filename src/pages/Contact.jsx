@@ -61,7 +61,7 @@ function ContactPage() {
                   required
                 ></textarea>
               </fieldset>
-              <button className="btn btn-secondary mt-4" type="submit">Submit Message</button>
+              <motion.button whileHover={{ y: -5 }} className="btn btn-secondary mt-4" type="submit">Submit Message</motion.button>
             </fieldset>
             </form>
           </div>
